@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{
+    height: 100vh;
+    width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.land-top-section{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.land-background{
+    background-image: url('https://res.cloudinary.com/dsighhdwn/image/upload/v1667409403/1_land-for-free_gl3a77.jpg');
+    background-size: 100% 100%;
+
+}
+.login-style{
+    color: white;
+    font-family: "Bree Serif";
+    margin-left: 0;
+}
+.login-info{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+.button-style{
+    color: white;
+    border-radius: 5px;
+}
+.button-style:hover{
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0 0 2px white;
+    border-radius: 5px;
+}
+
+.top-left{
+position: absolute;
+  top: 0;
+  /* left: 16px; */
+}
+
+.top-left .icon{
+    display: none;
+}
+
+
+/*Header*/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #94cdf8;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  /*Typing effect*/
+
+
+  .hero{
+    position: relative;
+    text-align: center;
+  box-shadow: 0 0 1rem 0 #26272633; 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  }
+
+  .hero::before{
+    content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(46, 42, 42, 0.159);
+  filter: blur(10px);
+  margin: -20px;
+  }
+
+  .centered{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+
+   /*
+    typing effext
+    */
+
+    .wrapper {
+        height: 10vh;
+        display: grid;
+        place-items: center;
+        color: #fff;
+      }
+      
+      .line__1,
+.line__2 {
+  white-space: nowrap; 
+  overflow: hidden;
+  margin: 0.5rem auto;
+  font-family: "Major Mono Display", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.line__1 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  animation: animated-text__1 4s steps(30, end) 1s 1 normal both,
+    animated-cursor__1 900ms steps(25, end) 8;
+}
+
+.line__2 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  animation: animated-text__2 5s steps(30, end) 1s 1 normal both,
+    animated-cursor__2 900ms steps(30, end) infinite;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+@keyframes animated-cursor__1 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-cursor__2 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-text__1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30rem;
+  }
+}
+
+@keyframes animated-text__2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 33rem;
+  }
+}
+
+.boxer{
+    margin-top: -50px;
+    border: solid 4px white;
+    padding: 50px;
+    height: fit-content;
+    width: auto;
+    
+}
+
+.line__1{
+    padding: 12px;
+    z-index: -1;
+}
+.line__2{
+    padding: 12px;
+    z-index: -1;
+}

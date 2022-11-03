@@ -49,8 +49,8 @@
     text-align: center;
 }
 .indv-heading:hover{
-    color: rgba(188, 250, 166, 0.315);
-    box-shadow: 0 5px 15px rgba(21, 90, 71, 0.257);
+    color: rgb(66, 213, 118);
+    box-shadow: 0 5px 15px rgba(25, 191, 155, 0.4);
 }
 .card-background2{
     background-color: rgb(214, 214, 214);
@@ -72,7 +72,7 @@
     padding: 25px;
 }
 
-.landHead{
+.waterHead{
     color: white;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
