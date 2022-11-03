@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.land-top-section{
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+}
+.land-background{
+    background-image: url('https://res.cloudinary.com/dsighhdwn/image/upload/v1667409403/1_land-for-free_gl3a77.jpg');
+    background-size: 100% 100%;
+
+}
+.login-style{
+    color: white;
+    font-family: "Bree Serif";
+}
+.login-info{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+.button-style{
+    color: white;
+    border-radius: 5px;
+}
+.button-style:hover{
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0 0 2px white;
+    border-radius: 5px;
+}
