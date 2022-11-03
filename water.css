@@ -5,7 +5,7 @@
     width: 100vw;
 }
 .land-background{
-    background-image: url("https://gregmolyneuxphotography.com/wp-content/uploads/2020/07/of-land.jpg");
+    background-image: url("https://cdn.shopify.com/s/files/1/0994/3918/products/web9_large.jpg?v=1492141814%27");
     background-size: cover;
     height: fit-content;
     
@@ -62,7 +62,7 @@
 }
 .img-style2{
     width: 200px;
-    height: 250px;
+    height: auto;
     border-radius: 10PX 0PX 0PX 10PX;
 }
 .card-background3{
@@ -77,7 +77,26 @@
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
     font-size: 2.5rem;
-    
-    
-    
+
+}
+.h-center{
+    text-align: center;
+}
+
+
+.btn2{
+    color: aliceblue;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 50%;
+    border: solid 4px white;
+    width: fit-content;
+    padding: 12px; 
+    border-radius: 15px; 
+    text-shadow: 12px aqua;
+}
+
+.btn2:hover{
+    background-color: rgb(17, 3, 97);
+    color: black;
 }

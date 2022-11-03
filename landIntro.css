@@ -114,28 +114,8 @@ position: absolute;
   .hero{
     position: relative;
     text-align: center;
-  box-shadow: 0 0 1rem 0 #26272633; 
-  border-radius: 5px;
-  position: relative;
-  z-index: 1;
-  background: inherit;
-  overflow: hidden;
+    color: white;
   }
-
-  .hero::before{
-    content: "";
-  position: absolute;
-  background: inherit;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  box-shadow: inset 0 0 2000px rgba(46, 42, 42, 0.159);
-  filter: blur(10px);
-  margin: -20px;
-  }
-
   .centered{
     position: absolute;
   top: 50%;
