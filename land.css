@@ -5,9 +5,10 @@
     width: 100vw;
 }
 .land-background{
-    background-image: url('https://res.cloudinary.com/dsighhdwn/image/upload/v1667409403/1_land-for-free_gl3a77.jpg');
-    background-size: 100% 100%;
-
+    background-image: url("https://gregmolyneuxphotography.com/wp-content/uploads/2020/07/of-land.jpg");
+    background-size: cover;
+    height: fit-content;
+    
 }
 .login-style{
     color: white;
@@ -27,4 +28,46 @@
     border-style: solid;
     box-shadow: 0 0 2px white;
     border-radius: 5px;
+}
+.card-background{
+    background-color: rgb(214, 214, 214);
+    margin: 25px;
+    width: 10%;
+    height:fit-content;
+    border-radius: 7px;
+}
+.indv-heading{
+    font-size: small;
+    background-color: rgb(211, 211, 211);
+    color: rgb(24, 142, 39);
+    padding: 15px;
+    margin: 15px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+}
+.indv-heading:hover{
+    color: rgb(66, 213, 118);
+    box-shadow: 0 5px 15px rgba(25, 191, 155, 0.4);
+}
+.card-background2{
+    background-color: rgb(214, 214, 214);
+    margin-top: 25px;
+    width: 80vmax;
+    border-radius: 10px;
+    padding: 0px;
+    font-family: monospace;
+}
+.img-style2{
+    width: 200px;
+    height: 250px;
+    border-radius: 10PX 0PX 0PX 10PX;
+}
+.card-background3{
+    padding: 25px;
+}
+.padding-content{
+    padding: 25px;
 }

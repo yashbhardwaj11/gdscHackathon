@@ -5,19 +5,67 @@
    <link rel="stylesheet" href="land.css">
 </head>
   <body>
-    <div>
+    <div class="land-background"> 
         <div class="land-top-section d-flex flex-column justify-content-center">
             <div  class="d-flex flex-row justify-content-end login-style">
-                <button class="btn login-info button-style">HOME</button>
-                <button class="btn login-info button-style">ABOUT</button>
+                <button class="btn login-info button-style" id="home">HOME</button>
+                <button class="btn login-info button-style" id="about">ABOUT</button>
                 <button class="btn login-info button-style">CONTACT</button>
                 <button class="btn login-info button-style">LOGIN</button>
             </div>
         </div>
-
-        <div>
-            
+      <div class="padding-content">
+      <div class="d-flex flex-row">  
+        <div class="card-background">
+          <div class="d-flex flex-column">
+            <div>
+                <button class="indv-heading" onclick="display('sectionN')">North</button>
+            </div>
+            <div>
+                <a href=""><button class="indv-heading" >East</button></a>
+            </div>
+            <div>
+                <button class="indv-heading">South</button>
+            </div>
+            <div> 
+                <a href="#sectionS"><button class="indv-heading">West</button></a>
+            </div>
+          </div>
         </div>
-    </div>
+
+      <div class="d-flex flex-column justify-content-end"> 
+        <div class="card-background2 d-flex flex-row" id="sectionN">
+          <img src="https://www.iberdrola.com/documents/20125/41407/contami_agua_746x419.jpg/a5030a71-e28d-749a-3704-8c6611b8b055?t=1628848828409" class="img-style2"/>
+          <div class="card-background3" >
+          <h1>North</h1>
+          <p>replace with DATA1</p>
+          </div>
+        </div>
+        <div class="card-background2 d-flex flex-row">
+          <img src="https://www.iberdrola.com/documents/20125/41407/contami_agua_746x419.jpg/a5030a71-e28d-749a-3704-8c6611b8b055?t=1628848828409" class="img-style2"/>
+          <div class="card-background3" >
+          <h1>North</h1>
+          <p>replace with DATA1</p>
+          </div>
+        </div>
+        <div class="card-background2 d-flex flex-row">
+          <img src="https://www.iberdrola.com/documents/20125/41407/contami_agua_746x419.jpg/a5030a71-e28d-749a-3704-8c6611b8b055?t=1628848828409" class="img-style2"/>
+          <div class="card-background3" >
+          <h1>North</h1>
+          <p>replace with DATA1</p>
+          </div>
+        </div>
+        <div class="card-background2 d-flex flex-row" id="sectionW">
+          <img src="https://www.iberdrola.com/documents/20125/41407/contami_agua_746x419.jpg/a5030a71-e28d-749a-3704-8c6611b8b055?t=1628848828409" class="img-style2"/>
+          <div class="card-background3" >
+          <h1>North</h1>
+          <p>replace with DATA1</p>
+          </div>
+        </div>
+        
+      </div> 
+      </div> 
+      </div>
+      <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
   </body>
 </html>
